@@ -14,5 +14,13 @@ namespace ConsoleApp1
         Console.WriteLine("Hello, commit 2");
         Console.ReadLine();
     }
+
+
+    }
+    public class Movie 
+    {
+        public string Title { get; set; }
+        public string Director { get; set; }
+        public int Year { get; set; }
     }
 }
