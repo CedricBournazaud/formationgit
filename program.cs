@@ -12,7 +12,17 @@ namespace ConsoleApp1
     {
         Console.WriteLine("Hello, world!");
         Console.WriteLine("Hello, commit 2");
+        Console.WriteLine("Hello, commit 3");
         Console.ReadLine();
     }
+    }
+
+    public class Calculator
+    {
+        public int Add(int a, int b)
+        {
+            return a + b;
+        }
+                      
     }
 }
